@@ -1,0 +1,13 @@
+.gallery {
+  &__place {
+    margin-bottom: 40px;
+
+    @include onDesktop {
+      margin-bottom: 32px;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
